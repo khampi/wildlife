@@ -35,17 +35,19 @@ nav,
 .container {
   width: 500px;
   display : flex;
-  padding:15px;
-  margin:auto;
+  justify-content:space-between;
+  align-items:center;
   
 }
-.container .text-white{
-  padding:40px;
+.text-white{
+  display : flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .button {
   background-color: #ffcc00;
-  padding:5px;
+  
 }
 
 a {
